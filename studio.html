@@ -4,10 +4,12 @@
 	 <script src="model-viewer.js"></script>
   </head>
   <body>
-    <a-scene>
+    <a-scene
+	model-viewer="gltfModel: #tree; title: Estudio">
 	
 		<a-assets>
-			<a-asset-item id="tree" src="studio/scene.gltf"></a-asset-item>
+			<a-asset-item id="tree" src="studio/scene.gltf"
+			response-type="arraybuffer" crossorigin="anonymous"></a-asset-item>
 		</a-assets>
 	
 		<a-entity gltf-model="#tree"></a-entity>
