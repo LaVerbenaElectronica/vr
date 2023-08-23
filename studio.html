@@ -3,15 +3,13 @@
     <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
   </head>
   <body>
-    <a-scene
-	model-viewer="gltfModel: #tree; title: Estudio">
+    <a-scene>
 	
 		<a-assets>
-			<a-asset-item id="tree" src="studio/scene.gltf"
-			response-type="arraybuffer" crossorigin="anonymous"></a-asset-item>
+			<a-asset-item id="tree" src="studio/scene.gltf"></a-asset-item>
 		</a-assets>
 	
-		<a-entity position="0 0 -50" gltf-model="#tree"></a-entity>
+		<a-entity gltf-model="#tree"></a-entity>
 	
     </a-scene>
 	
