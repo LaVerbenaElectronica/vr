@@ -1,14 +1,18 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
+	 <script src="model-viewer.js"></script>
   </head>
   <body>
     <a-scene>
-	<a-assets>
-		<a-asset-item id="tree" src="studio/scene.gltf"></a-asset-item>
-	</a-assets>
-	<a-camera><a-cursor></a-cursor></a-camera>
-	<a-entity rotation="0 0 0" gltf-model="#tree"></a-entity>
+	
+		<a-assets>
+			<a-asset-item id="tree" src="studio/scene.gltf"></a-asset-item>
+		</a-assets>
+	
+		<a-entity gltf-model="#tree"></a-entity>
+	
     </a-scene>
+	
   </body>
 </html>
