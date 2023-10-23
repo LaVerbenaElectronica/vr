@@ -10,3 +10,21 @@ Considering also the amount of resources needed to generate AI digital content, 
 
 By learning the basics of HTML and with the use of 3D editing tools, attendants will be able to design virtual environments and host them for their own use while, at the same time, help them reflect about issues like energy consumption, privacy, open culture, digital representation and accessibility. During these three consecutive days, thirty students of the School of Applied Arts and Design of Zagreb will put their skills to work to create a working prototype of several virtual scenes with A-Frame, an open source library for building 3D spaces easily on the browser.
 
+## Software and Installation process
+
+In order to run the example in A-frame it is needed to have installed some web server. Here there is a link to Wamp, which is an open source web server for Windows under Apache.
+- Wamp download website [Link]([https://duckduckgo.com](https://www.wampserver.com/en/)https://www.wampserver.com/en/)
+Follow the link, download the suitable version for your computer, unzip and follow the instructions to complete the installation.
+
+In order to edit 3D models easily we recommend under windows, the use of 3D Buider, which is a free tool. Here is the link.
+- 3D Builder [Link](https://apps.microsoft.com/detail/3d-builder/9WZDNCRFJ3T6)
+Click Install and follow the instructions to complete the installation.
+
+The hackathon follows this presentation. Here you can find the workshops and indication for the working sessions. 
+- The presentation is available here [Link] (https://github.com/LaVerbenaElectronica/vr)
+Place this in a folder on your computer where you can access it easily.
+
+In order to follow the examples of the presentation, you will need to have under your public folder www of your webserver a zip with the repository of A-frame examples, you can download that from the user stemkonski.
+- A-frame examples [Link](https://github.com/stemkoski/A-Frame-Examples).
+Go to "Code", clic and choose "Download zip", place it inside your web server public folder www.
+
