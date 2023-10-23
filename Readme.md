@@ -19,7 +19,7 @@ Follow the link, download the suitable version for your computer, unzip and foll
 2) In order to edit 3D models easily we recommend under windows, the use of 3D Buider, which is a free tool. Here is the link.
 - 3D Builder app [Link](https://apps.microsoft.com/detail/3d-builder/9WZDNCRFJ3T6)  
 Click Install and follow the instructions to complete the installation. In case 3D Builder isn't available, you can try and download Blender.
-- Blender software [Link](https://www.blender.org/download/)
+- Blender software [Link](https://www.blender.org/download/)   
 Install and follow the isntructions  
 
 3) The hackathon follows this presentation. Here you can find the workshops and indication for the working sessions. 
