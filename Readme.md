@@ -21,7 +21,7 @@ In order to edit 3D models easily we recommend under windows, the use of 3D Buid
 Click Install and follow the instructions to complete the installation.
 
 The hackathon follows this presentation. Here you can find the workshops and indication for the working sessions. 
-- The presentation is available here [Link] (https://github.com/LaVerbenaElectronica/vr)
+- The presentation is available here [Link]([https://github.com/LaVerbenaElectronica/vr](https://github.com/LaVerbenaElectronica/vr/blob/main/hackaton/Recycling%20the%20AI%20-%20Hackathon.pptx.pdf))
 Place this in a folder on your computer where you can access it easily.
 
 In order to follow the examples of the presentation, you will need to have under your public folder www of your webserver a zip with the repository of A-frame examples, you can download that from the user stemkonski.
