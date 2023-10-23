@@ -28,7 +28,7 @@ Place this in a folder on your computer where you can access it easily.
 
 4) In order to follow the examples of the presentation, you will need to have under your public folder www of your webserver a zip with the repository of A-frame examples, you can download that from the user stemkonski.
 - A-frame examples [Link](https://github.com/stemkoski/A-Frame-Examples)  
-Go to "Code", clic and choose "Download zip", place it inside your web server public folder www.
+Go to "Code", clic and choose "Download zip", place it inside your web server public folder "www".
 
 ## Plan and schedule
 Day 1  
