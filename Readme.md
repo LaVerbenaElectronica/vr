@@ -31,17 +31,17 @@ Place this in a folder on your computer where you can access it easily.
 Go to "Code", clic and choose "Download zip", place it inside your web server public folder www.
 
 ## Plan and schedule
-Day 1
-10h to 11h - Presentation of the hackathon.
-11h to 12:30h - 1st A-Frame workshop
-12:30h to 14h - 1st Working group session.
+Day 1  
+10h to 11h - Presentation of the hackathon.  
+11h to 12:30h - 1st A-Frame workshop.  
+12:30h to 14h - 1st Working group session.  
 
-Day 2
-12h to 13:30h - 2nd A-Frame workshop.
-13:30h to 14h - Break
-14h to 16h 2nd - Working group session:
-16h to 17h - 3rd A-Frame workshop.
+Day 2  
+12h to 13:30h - 2nd A-Frame workshop.  
+13:30h to 14h - Break.  
+14h to 16h 2nd - Working group session.  
+16h to 17h - 3rd A-Frame workshop.  
 
-Day 3
-10h to 12h - 3rd Working group session.
-12h to 13h - Final presentations of projects.
+Day 3  
+10h to 12h - 3rd Working group session.  
+12h to 13h - Final presentations of projects.  
