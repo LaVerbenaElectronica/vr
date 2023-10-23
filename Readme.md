@@ -13,7 +13,7 @@ By learning the basics of HTML and with the use of 3D editing tools, attendants 
 ## Software and Installation process
 
 In order to run the example in A-frame it is needed to have installed some web server. Here there is a link to Wamp, which is an open source web server for Windows under Apache.
-- Wamp download website [Link]([https://duckduckgo.com](https://www.wampserver.com/en/)https://www.wampserver.com/en/)
+- Wamp download website [Link](https://www.wampserver.com/en/)
 Follow the link, download the suitable version for your computer, unzip and follow the instructions to complete the installation.
 
 In order to edit 3D models easily we recommend under windows, the use of 3D Buider, which is a free tool. Here is the link.
