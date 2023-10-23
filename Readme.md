@@ -17,7 +17,7 @@ In order to run the example in A-frame it is needed to have installed some web s
 Follow the link, download the suitable version for your computer, unzip and follow the instructions to complete the installation.
 
 In order to edit 3D models easily we recommend under windows, the use of 3D Buider, which is a free tool. Here is the link.
-- 3D Builder [Link](https://apps.microsoft.com/detail/3d-builder/9WZDNCRFJ3T6)
+- 3D Builder app [Link](https://apps.microsoft.com/detail/3d-builder/9WZDNCRFJ3T6)
 Click Install and follow the instructions to complete the installation.
 
 The hackathon follows this presentation. Here you can find the workshops and indication for the working sessions. 
