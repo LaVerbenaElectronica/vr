@@ -1,5 +1,7 @@
 # Instructions for the Hackathon at the XR Camp in Zagreb
 
+## URL of this instructions: https://shorturl.at/dlpsX
+
 ## Recycling the AI
 
 A hackathon is an event where people engage in rapid and collaborative engineering over short period of time. They facilitate interdisciplinary work by grouping some people with different skills in order to solve a given challenge. The goal is to provide a working product by the end of the event, being the best solution awarded with some recognition. This particular hackathon, happening during the first XR Camp organized in the context of the EU project Realities in Transition, aims to engage young students on critical thinking about Extended Realities (XR).
