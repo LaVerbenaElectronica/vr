@@ -34,16 +34,17 @@ Go to "Code", clic and choose "Download zip", place it inside your web server pu
 
 ## Plan and schedule
 Day 1  
-10h to 11h - Presentation of the hackathon.  
-11h to 12:30h - 1st A-Frame workshop.  
-12:30h to 14h - 1st Working group session.  
+a) Presenting Rit and the Hackathon theme.   
+b) Installing the required software on the computers.   
+c) Reading the AI generated stories and design the scene.
+d) First worskhop. HTML tags and Inspector.   
 
 Day 2  
-12h to 13:30h - 2nd A-Frame workshop.  
-13:30h to 14h - Break.  
-14h to 16h 2nd - Working group session.  
-16h to 17h - 3rd A-Frame workshop.  
+a) Configure the Environment Component.     
+b) Second workshop. 3D Builder use.  
+c) Collection of 3D objects for the scene.  
+d) General placement in the scene in A-frame.     
 
 Day 3  
-10h to 12h - 3rd Working group session.  
-12h to 13h - Final presentations of projects.  
+a) Third workshop. Light, texturing, animation.     
+b) Final touches and presentation.   
