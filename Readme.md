@@ -33,7 +33,7 @@ Go to "Code", clic and choose "Download zip", place it inside your web server pu
 ## Setup for the day.
 - Start the wamp server. Get the green icon on the windows bar.    
 - Go to C:/wamp64/www/ and search for your A-frame folder. Note the folders name. There, search for *hackathon.html* and open it in text file.     
-- Open an browser and go to [localhost](localhost) write / and the name of your aframe forlder. Click until you seee the A frame examples.
+- Open an browser and go to [localhost](http://localhost/) write / and the name of your aframe forlder. Click until you seee the A frame examples.
 
 ## Plan and schedule
 Day 1  
