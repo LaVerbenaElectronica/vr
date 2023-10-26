@@ -21,8 +21,6 @@ Follow the link, download the suitable version for your computer, unzip and foll
 2) In order to edit 3D models easily we recommend under windows, the use of 3D Buider, which is a free tool. Here is the link.
 - 3D Builder app [Link](https://apps.microsoft.com/detail/3d-builder/9WZDNCRFJ3T6)  
 Click Install and follow the instructions to complete the installation. In case 3D Builder isn't available, you can try and download Blender.
-- Blender software [Link](https://www.blender.org/download/)   
-Install and follow the isntructions  
 
 3) The hackathon follows this presentation. Here you can find the workshops and indication for the working sessions. 
 - The presentation is available here [Link](https://github.com/LaVerbenaElectronica/vr/blob/main/hackaton/Recycling%20the%20AI%20-%20Hackathon.pptx.pdf)  
@@ -31,6 +29,11 @@ Place this in a folder on your computer where you can access it easily.
 4) In order to follow the examples of the presentation, you will need to have under your public folder www of your webserver a zip with the repository of A-frame examples, you can download that from the user stemkonski.
 - A-frame examples [Link](https://github.com/stemkoski/A-Frame-Examples)  
 Go to "Code", clic and choose "Download zip", place it inside your web server public folder "www".
+
+## Setup for the day.
+- Start the wamp server. Get the green icon on the windows bar.    
+- Go to C:/wamp64/www/ and search for your A-frame folder. Note the folders name. There, search for *hackathon.html* and open it in text file.     
+- Open an browser and go to [localhost](localhost) write / and the name of your aframe forlder. Click until you seee the A frame examples.
 
 ## Plan and schedule
 Day 1  
