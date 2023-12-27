@@ -15,7 +15,9 @@ Story by AI that was recycled: [Max, The Plant Whisperer](https://storiesby.ai/p
 
 Credits of 3d models:
 * Ferret: https://skfb.ly/o7wR6
-* Boy (AI generated): https://skfb.ly/oMNY6  
+* Boy (AI generated): https://skfb.ly/oMNY6
+* Old Russian House: https://skfb.ly/oxT9s
+* Trees: https://skfb.ly/oDWDI   
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP02/index.html)   
 
