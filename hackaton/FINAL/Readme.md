@@ -20,6 +20,8 @@ Credits of 3d models:
 * Trees: https://skfb.ly/oDWDI   
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP02/index.html)   
+Scan this QR to enter the virtual world from a Smartphone.   
+![QR](LAP02/qrcode.png)
 
 ## GROUP LAP03
 Story by AI that was recycled: [The Greatest Goddam Hero I've Ever Known](https://storiesby.ai/p/the-greatest-goddamn-hero-ive-ever)  
