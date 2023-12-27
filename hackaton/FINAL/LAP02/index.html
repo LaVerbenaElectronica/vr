@@ -21,6 +21,7 @@
 		<a-asset-item id="flower1" src="hacathron/flower_1.glb"></a-asset-item>
 		<a-asset-item id="flower2" src="hacathron/flower_2.glb"></a-asset-item>
 		<a-asset-item id="house" src="hacathron/house/scene.gltf"></a-asset-item>
+		<img id="story-title" src="hacathron/story-title.png">
 	</a-assets>
 
 <div class="a-loader-title" style="display: none;">A-Frame: Environment component</div><a-entity class="environment" position="0 50 0" light="type: hemisphere; color: #CEE4F0; intensity: 0.5722448147213711; groundColor: #3d4e41" visible=""></a-entity>
@@ -29,6 +30,15 @@
 <a-entity class="environmentDressing environment" visible="false"></a-entity>
 <a-sky radius="200" theta-length="110" class="environment" material="shader: skyshader; sunPosition: -0.10389385923870163 0.9444896294427422 0.31168157771610494" visible="" geometry=""></a-sky>
 <a-entity id="stars"></a-entity>
+
+    <a-image 
+		src="#story-title"
+		width="6" 
+		height="2"
+		scale="0.43 0.43 0.43"
+		position="2.6 2.3 -3"
+		rotation="0 -20 0">
+	</a-image>
 
 <a-entity gltf-model="#house" position="0 0.9 -26" rotation="0 -45 0" scale="3 3 3">
 	</a-entity>
@@ -50,7 +60,7 @@
 <a-entity gltf-model="#boy" position="0 1.85 -3" rotation="0 0 0" scale="3.5 3.5 3.5">
 	</a-entity>
 
-<a-entity gltf-model="#ferret" position="-5 0.2 0" rotation="0 0 0" scale="0.2 0.2 0.2">
+<a-entity gltf-model="#ferret" position="2 0.2 -3" rotation="0 -150 0" scale="0.2 0.2 0.2">
 	</a-entity>
 
 <a-entity gltf-model="#trees" position="6.51818 0 -10.4622" rotation="0 -148.42987344879595 0" scale="0.4 0.5 0.5">
