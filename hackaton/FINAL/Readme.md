@@ -30,7 +30,7 @@ Story by AI that was recycled: [The Underground World Of Plant Collecting](https
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP06/index.html)   
 
-## LAP 09
+## GROUP LAP09
 Story by AI that was recycled: [When The Sky Turned Red](https://storiesby.ai/p/when-the-sky-turned-red)
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP09/index.html)   
