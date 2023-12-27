@@ -7,7 +7,7 @@ Credits of 3d models:
 * Girl: https://skfb.ly/6zGMG
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP01/index.html)   
-Scan this QR to enter the virtual world from a Smartphone.
+Scan this QR to enter the virtual world from a Smartphone.   
 ![QR](LAP01/qrcode_lap01.png)
 
 ## GROUP LAP02
