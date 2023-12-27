@@ -4,18 +4,17 @@
 <head>
 	<title>A-Frame: Environment component</title>
 	<meta name="description" content="A-Frame Examples">
-	<script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
-	<script src="https://unpkg.com/aframe-environment-component@1.3.2/dist/aframe-environment-component.min.js"></script>
+	<script src="../js/aframe-master-v1.3.0.min.js"></script>
+	<script src="../js/aframe-environment-component.js"></script>
 </head>
 
 <body>
 
-<a-scene>
-
-	<a-entity environment="preset: volcano; active: true; groundColor: #b3b3b3; groundColor2: #385e69; dressing: cubes; grid: xlines; horizonColor: #5695a9;fog: 0.98; dressingOnPlayArea:0.04; groundYScale: 3.48; dressingColor: #000000"></a-entity>
+<a-scene environment="preset: volcano; active: true; groundColor: #b3b3b3; groundColor2: #385e69; dressing: cubes; grid: xlines; horizonColor: #5695a9; fog: 0.98; groundYScale: 3.48; dressingOnPlayArea: 0.004; dressingColor: #000000" renderer="antialias: true;" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="" visible="" fog="color: #6b93a0; far: 12.00000000000001; density: 0">
+	
 	<a-assets>
 		<a-asset-item id="matilda" src="hackathon/woman.gltf"></a-asset-item>  
-        <a-asset-item id="demon" src="hackathon/demon/scene.gltf"></a-asset-item> 
+        <a-asset-item id="demon" src="hackathon/demon.glb"></a-asset-item> 
         <a-asset-item id="cafe" src="hackathon/coffe/Cabin.gltf"></a-asset-item> 
 		<a-asset-item id="tree" src="hackathon/Baretree.glb"></a-asset-item>
 		<a-asset-item id="tree2" src="hackathon/bundeva_i_drvo.glb"></a-asset-item>
@@ -36,14 +35,14 @@
 		scale="0.01 0.01 0.01">
 	</a-entity>
 
-<!--
+
 	<a-entity gltf-model="#demon" 
-		position = "3 5 -7"
+		position = "3 2 -7"
 		rotation="0 -34 0"
-		scale="0.004 0.004 0.004"
-		animation="property: position; from: 3 5 -7; to: 1 5 -2; dur: 10000; delay: 5000; loop:true; dir: alternate;">	
+		scale="0.3 0.3 0.3"
+		animation="property: position; from: 3 2 -7; to: 1 5 -3; dur: 10000; delay: 5000; loop:true; dir: alternate;">	
     </a-entity>
--->
+
 
     <a-entity gltf-model="#matilda" 
 		position = "4 0 -4"
