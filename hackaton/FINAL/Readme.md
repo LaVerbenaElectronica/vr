@@ -1,7 +1,10 @@
 ## GROUP LAP 02
-Story by AI that was recycled: The Hellmut in the Coffee Shop
-Winter Cabin: https://skfb.ly/oOTYC
+Story by AI that was recycled: [The Hellmut in the Coffee Shop](https://storiesby.ai/p/the-hellmouth-in-the-coffee-shop)  
 
+Credits:  
+* Winter Cabin: https://skfb.ly/oOTYC
+* 
+* 
 
 https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP02/hackathon.html
 
