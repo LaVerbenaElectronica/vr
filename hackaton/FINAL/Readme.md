@@ -1,4 +1,4 @@
-## GROUP LAP 01
+## GROUP LAP01
 Story by AI that was recycled: [The Hellmut in the Coffee Shop](https://storiesby.ai/p/the-hellmouth-in-the-coffee-shop)  
 
 Credits of 3d models:  
