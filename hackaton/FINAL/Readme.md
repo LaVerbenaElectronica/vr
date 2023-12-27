@@ -1,7 +1,7 @@
 ## GROUP LAP 01
 Story by AI that was recycled: [The Hellmut in the Coffee Shop](https://storiesby.ai/p/the-hellmouth-in-the-coffee-shop)  
 
-Credits:  
+Credits of 3d models:  
 * Winter Cabin: https://skfb.ly/oOTYC
 * Demon: https://skfb.ly/6RSW6 
 * Girl: https://skfb.ly/6zGMG
