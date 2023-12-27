@@ -1,4 +1,4 @@
-## GROUP LAP 02
+## GROUP LAP 01
 Story by AI that was recycled: [The Hellmut in the Coffee Shop](https://storiesby.ai/p/the-hellmouth-in-the-coffee-shop)  
 
 Credits:  
@@ -6,6 +6,9 @@ Credits:
 * Demon: https://skfb.ly/6RSW6 
 * Girl: https://skfb.ly/6zGMG
 
+![QR](LAP01/qrcode_lap01.png)
+
+## LAP 02
 https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP02/hackathon.html
 
 ## LAP 06
