@@ -3,7 +3,7 @@ Story by AI that was recycled: [The Hellmut in the Coffee Shop](https://storiesb
 
 Credits:  
 * Winter Cabin: https://skfb.ly/oOTYC
-* 
+* Demon: https://sketchfab.com/3d-models/baphomet-151a369bf3c6417a988c282d71de9111 
 * 
 
 https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP02/hackathon.html
