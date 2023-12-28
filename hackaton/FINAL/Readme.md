@@ -10,6 +10,8 @@ Credits of 3d models:
 Scan this QR to enter the virtual world from a Smartphone.   
 ![QR](LAP01/qrcode_lap01.png)
 
+<iframe src="https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP01/index.html" width="100%" height="300" style="border:none;" allowvr="yes"></iframe>
+
 ## GROUP LAP02
 Story by AI that was recycled: [Max, The Plant Whisperer](https://storiesby.ai/p/max-the-plant-whisperer)
 
