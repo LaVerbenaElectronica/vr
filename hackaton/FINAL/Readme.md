@@ -30,6 +30,8 @@ Credits of 3d models:
 * Skeleton: https://skfb.ly/oLNMN
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP03/index.html)   
+Scan this QR to enter the virtual world from a Smartphone.   
+![QR](LAP03/qrcode_lap03.png)
 
 ## GROUP LAP05
 Story by AI that was recycled: [The Gift of a Bird's Song](https://storiesby.ai/p/the-gift-of-a-birds-song)
