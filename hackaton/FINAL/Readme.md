@@ -38,6 +38,12 @@ Scan this QR to enter the virtual world from a Smartphone.
 ## GROUP LAP05
 Story by AI that was recycled: [The Gift of a Bird's Song](https://storiesby.ai/p/the-gift-of-a-birds-song)
 
+Credits of 3d models:
+* Apple Tree: https://skfb.ly/6YV9B
+* Bird: https://skfb.ly/ovDpS 
+* Castle: https://skfb.ly/6yRPw
+* Knight: Unkown.
+
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP05/index.html)   
 
 ## GROUP LAP06
