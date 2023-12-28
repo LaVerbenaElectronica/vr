@@ -49,6 +49,8 @@ Credits of 3d models:
 * Bench, Fountain: 3D Builder Library
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP06/index.html)   
+Scan this QR to enter the virtual world from a Smartphone.   
+![QR](LAP06/qrcode_lap06.png)
 
 ## GROUP LAP09
 Story by AI that was recycled: [When The Sky Turned Red](https://storiesby.ai/p/when-the-sky-turned-red)
