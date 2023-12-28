@@ -61,4 +61,7 @@ Scan this QR to enter the virtual world from a Smartphone.
 ## GROUP LAP09
 Story by AI that was recycled: [When The Sky Turned Red](https://storiesby.ai/p/when-the-sky-turned-red)
 
+Credits of 3d models:   
+* Man: https://skfb.ly/QspN
+
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP09/index.html)   
