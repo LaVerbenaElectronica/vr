@@ -26,6 +26,9 @@ Scan this QR to enter the virtual world from a Smartphone.
 ## GROUP LAP03
 Story by AI that was recycled: [The Greatest Goddam Hero I've Ever Known](https://storiesby.ai/p/the-greatest-goddamn-hero-ive-ever)  
 
+Credits of 3d models:
+* Skeleton: https://skfb.ly/oLNMN
+
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP03/index.html)   
 
 ## GROUP LAP05
