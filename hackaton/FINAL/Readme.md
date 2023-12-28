@@ -28,6 +28,8 @@ Story by AI that was recycled: [The Greatest Goddam Hero I've Ever Known](https:
 
 Credits of 3d models:
 * Skeleton: https://skfb.ly/oLNMN
+* Desert plant and palms: 3D Builder Library.
+* Bench and Fountain: 3D Builder Library
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP03/index.html)   
 Scan this QR to enter the virtual world from a Smartphone.   
@@ -40,6 +42,9 @@ Story by AI that was recycled: [The Gift of a Bird's Song](https://storiesby.ai/
 
 ## GROUP LAP06
 Story by AI that was recycled: [The Underground World Of Plant Collecting](https://storiesby.ai/p/the-underground-world-of-plant-collecting)
+
+Credits of 3d models:
+* Butterfly: https://skfb.ly/oqHt9
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP06/index.html)   
 
