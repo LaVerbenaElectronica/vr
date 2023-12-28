@@ -45,6 +45,8 @@ Story by AI that was recycled: [The Underground World Of Plant Collecting](https
 
 Credits of 3d models:
 * Butterfly: https://skfb.ly/oqHt9
+* Desert Plants and Trees: 3D Builder Library
+* Bench, Fountain: 3D Builder Library
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP06/index.html)   
 
