@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>A-Frame: Environment component</title>
+	<meta name="description" content="A-Frame Examples">
+	<script src="../js/aframe-master-v1.3.0.min.js"></script>
+	<script src="../js/aframe-environment-component.js"></script>
+
+</head>
+
+<body>
+
+<a-scene environment="preset: egypt; groundTexture: walkernoise" renderer="antialias: true;" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="" fog="color: #a9855a; far: 104; density: 0" visible="">
+
+	<a-assets>
+		<a-asset-item id="tornado" src="hackathon/betterTornado.gltf"></a-asset-item>
+		<a-asset-item id="truck" src="hackathon/najjaciKAMIONN_text.gltf"></a-asset-item>
+        <a-asset-item id="piramida" src="hackathon/piramida.gltf"></a-asset-item>
+        <a-asset-item id="human" src="hackathon/human.gltf"></a-asset-item>
+		<a-asset-item id="mug" src="hackathon/Mug.glb"></a-asset-item>
+		<img id="story-title" src="hackathon/story-title.png">
+	</a-assets>
+	  
+<div class="a-loader-title" style="display: none;">A-Frame: Environment component</div><a-entity class="environment" position="0 50 0" light="type: hemisphere; color: #8dbaaf; intensity: 0.6; groundColor: #664735" visible=""></a-entity>
+<a-entity class="environment" position="0 1.65 -1" light="intensity: 0.6; shadowCameraLeft: -10; shadowCameraBottom: -10; shadowCameraRight: 10; shadowCameraTop: 10" visible=""></a-entity>
+<a-entity rotation="-90 0 0" class="environmentGround environment" visible="" scale="1 1 5" shadow="cast: false; receive: false"></a-entity>
+<a-entity class="environmentDressing environment" visible=""></a-entity>
+<a-sky radius="200" theta-length="110" class="environment" material="shader: gradientshader; topColor: #1b7660; bottomColor: #e4b676" visible="" geometry=""></a-sky>
+<a-entity id="stars" visible="false"></a-entity>
+
+    <a-image 
+		src="#story-title"
+		width="6" 
+		height="2"
+		scale="0.43 0.43 0.43"
+		position="-0.65 0.53 -1.9"
+		rotation="0 -0 0">
+	</a-image>
+
+<a-entity text="value: Tornado Chasers;" position="-1.802 1.020 -6.228" rotation="-18.068 78.149 3.939" scale="5 5 5"></a-entity>
+
+<a-entity gltf-model="#truck" position="-2.41305 0.10428 -4.99064" rotation="5.0030674670823485 -10.031345077150453 16.53670788306582" scale="0.84869 0.7395 0.65663">
+	</a-entity>
+
+<a-entity gltf-model="#human" position="-0.10241 4.35136 -3.43348" rotation="-16.019326994062688 -52.22682189955993 -31.81405453243409" scale="9.03517 4.92874 4.7083"
+      animation="property:position; from: -0.10241 4.35136 -3.43348; to: -1.10241 1 -2.43348; dur: 10000; loop: true; dir: alternate;">
+	</a-entity>
+
+<a-entity gltf-model="#human" position="-0.10241 4.35136 -3.43348" rotation="-16.019326994062688 -52.22682189955993 -31.81405453243409" scale="9.03517 4.92874 4.7083"
+      animation="property:position; from: -3.10241 8.35136 -3.43348; to: -1.10241 1 -2.43348; dur: 10000; loop: true; dir: alternate;">
+	</a-entity>
+	
+<a-entity gltf-model="#human" position="-0.10241 4.35136 -3.43348" rotation="-16.019326994062688 -52.22682189955993 -31.81405453243409" scale="9.03517 4.92874 4.7083"
+      animation="property:position; from: 3.10241 4.35136 -6.43348; to: -1.10241 1 -2.43348; dur: 10000; loop: true; dir: alternate;">
+	</a-entity>
+
+<a-entity gltf-model="#piramida" position="8.6411 0 -5.81879" rotation="" scale="200 200 200">
+	</a-entity>
+
+<a-entity gltf-model="#human" position="1 0 -2" rotation="0 -47.83452744208704 0" scale="9 9 9">
+	</a-entity>
+
+<a-entity gltf-model="#mug" position="-0.058 0 -6.521" rotation="0 0 0" scale="9 9 9">
+	</a-entity>
+
+<a-entity gltf-model="#tornado" position="-0.4 -0.2 -6.4" rotation="0 0 0" scale="5 5 5" 
+     animation="property:rotation; from: 0 0 0; to: 0 360 0; dur: 2000; loop: true;">
+	</a-entity>
+
+<a-entity gltf-model="#tornado" position="-11.4 -0.2 -9.4" rotation="0 0 0" scale="3 3 3" 
+     animation="property:position; from: -11.4 -0.2 -9.4; to: -9.4 -0.2 -9.4; dur: 1000; loop: true; dir: alternate;">
+	</a-entity>
+	
+<a-entity gltf-model="#tornado" position="4 -0.2 -17.4" rotation="0 0 0" scale="3 3 3" 
+     animation="property:position; from: 4 -0.2 -17.4; to: 0 -0.2 -17.4; dur: 5000; loop: true; dir: alternate;">
+	</a-entity>
+	
+<a-entity gltf-model="#tornado" position="-3.4 -0.2 9.4" rotation="0 0 0" scale="3 3 3" 
+     animation="property:rotation; from: 0 0 0; to: 0 360 0; dur: 10000; loop: true; dir: alternate;">
+	</a-entity>
+
+
+</a-scene>
+
+</body>
+</html>
