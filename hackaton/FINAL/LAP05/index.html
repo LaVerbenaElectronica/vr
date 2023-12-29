@@ -13,7 +13,6 @@
 
 <a-scene environment="preset: forest" renderer="antialias: true;" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="" fog="color: #b0af83; far: 84; density: 0" visible="">
 <a-light type="ambient" color="#222" light=""></a-light>
-<div class="a-loader-title" style="display: none;">A-Frame: Environment component</div>
 <a-entity class="environment" position="0 50 0" light="type: hemisphere; color: #91dacf; intensity: 0.6; groundColor: #937a24" visible=""></a-entity>
 <a-entity class="environment" position="-1.2 0.88 -0.55" light="intensity: 0.6; shadowCameraLeft: -10; shadowCameraBottom: -10; shadowCameraRight: 10; shadowCameraTop: 10" visible=""></a-entity>
 <a-entity rotation="-90 0 0" class="environmentGround environment" visible="" scale="1 1 4.18" shadow="cast: false; receive: false"></a-entity>
@@ -22,10 +21,10 @@
 <a-entity id="stars" visible="false"></a-entity>
 
 	<a-assets>
-		<a-asset-item id="Castle" src="hackathon/Castle.gltf"></a-asset-item>
+		<a-asset-item id="castle" src="hackathon/Castle.gltf"></a-asset-item>
 		<a-asset-item id="bird" src="hackathon/bird.gltf"></a-asset-item>
 		<a-asset-item id="music" src="hackathon/music.gltf"></a-asset-item>
-		<a-asset-item id="AppleTree" src="hackathon/AppleTree.gltf"></a-asset-item>
+		<a-asset-item id="appletree" src="hackathon/AppleTree.gltf"></a-asset-item>
 		<a-asset-item id="vitez" src="hackathon/vitez.gltf"></a-asset-item>
 	</a-assets>
 
@@ -39,16 +38,15 @@
 		rotation="0 0 0">
 	</a-image>
 
-	<a-entity gltf-model="hackathon/AppleTree.gltf" position="1 0 3" rotation="" scale="7 7 7"></a-entity>
-	<a-entity gltf-model="hackathon/AppleTree.gltf" position="-4.7 0 -11" rotation="" scale="7 7 7"></a-entity>
-<a-entity gltf-model="hackathon/AppleTree.gltf" position="5.00558 0 7.6509" rotation="" scale="7 7 7"></a-entity>
-<a-entity gltf-model="hackathon/bird.gltf" position="-7.228 -1.173 -8.674" rotation="0 -27 0" scale="79.68783 79.68783 79.68783"></a-entity>
-</a-entity><a-entity gltf-model="hackathon/vitez.gltf" position="0.137 0 -6.058" rotation="0 -43 0" scale="3 3 3"></a-entity>
-<a-entity gltf-model="hackathon/Castle.gltf" position="7.659 0 -30" rotation="0 0 0" scale="1 1 1"
-animation="property:rotation; from: 0 0 0; to: 0 360 0; dur:30000; loop:true;"></a-entity>
-	<a-entity gltf-model="hackathon/music.gltf" position="-7.916 3.48 -2.09" rotation="22 -86 0" scale="0.1 0.1 0.1"></a-entity>1 1 1"></a-entity>
-		
-     <a-entity gltf-model="hackathon/bird.gltf" position="5.67095 13.01344 3.10664" rotation="" scale="79.68783 79.68783 79.68783"></a-entity>
+	<a-entity gltf-model="#appletree" position="1 0 3" rotation="" scale="7 7 7"></a-entity>
+	<a-entity gltf-model="#appletree" position="-4.7 0 -11" rotation="" scale="7 7 7"></a-entity>
+	<a-entity gltf-model="#appletree" position="5.00558 0 7.6509" rotation="" scale="7 7 7"></a-entity>
+	<a-entity gltf-model="#bird" position="-7.228 -1.173 -8.674" rotation="0 -27 0" scale="79.68783 79.68783 79.68783"></a-entity>
+	<a-entity gltf-model="#vitez" position="0.137 0 -6.058" rotation="0 -43 0" scale="3 3 3"></a-entity>
+	<a-entity gltf-model="#castle" position="7.659 0 -30" rotation="0 0 0" scale="1 1 1"
+		animation="property:rotation; from: 0 0 0; to: 0 360 0; dur:30000; loop:true;"></a-entity>
+	<a-entity gltf-model="#music" position="-7.916 3.48 -2.09" rotation="22 -86 0" scale="0.1 0.1 0.1"></a-entity>1 1 1"></a-entity>
+    <a-entity gltf-model="#bird" position="5.67095 13.01344 3.10664" rotation="" scale="79.68783 79.68783 79.68783"></a-entity>
 </a-scene>
 
 </body>
