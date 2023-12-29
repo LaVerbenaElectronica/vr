@@ -45,6 +45,8 @@ Credits of 3d models:
 * Knight: Unkown.
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP05/index.html)   
+Scan this QR to enter the virtual world from a Smartphone.   
+![QR](LAP05/qrcode_lap05.png)
 
 ## GROUP LAP06
 Story by AI that was recycled: [The Underground World Of Plant Collecting](https://storiesby.ai/p/the-underground-world-of-plant-collecting)
