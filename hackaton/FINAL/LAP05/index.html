@@ -12,6 +12,14 @@
 <body>
 
 <a-scene environment="preset: forest" renderer="antialias: true;" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="" fog="color: #b0af83; far: 84; density: 0" visible="">
+<a-light type="ambient" color="#222" light=""></a-light>
+<div class="a-loader-title" style="display: none;">A-Frame: Environment component</div>
+<a-entity class="environment" position="0 50 0" light="type: hemisphere; color: #91dacf; intensity: 0.6; groundColor: #937a24" visible=""></a-entity>
+<a-entity class="environment" position="-1.2 0.88 -0.55" light="intensity: 0.6; shadowCameraLeft: -10; shadowCameraBottom: -10; shadowCameraRight: 10; shadowCameraTop: 10" visible=""></a-entity>
+<a-entity rotation="-90 0 0" class="environmentGround environment" visible="" scale="1 1 4.18" shadow="cast: false; receive: false"></a-entity>
+<a-entity class="environmentDressing environment" visible=""></a-entity>
+<a-sky radius="200" theta-length="110" class="environment" material="shader: gradientshader; topColor: #24b59f; bottomColor: #eff9b7" visible="" geometry=""></a-sky>
+<a-entity id="stars" visible="false"></a-entity>
 
 	<a-assets>
 		<a-asset-item id="Castle" src="hackathon/Castle.gltf"></a-asset-item>
@@ -22,15 +30,6 @@
 		<img id="story-title" src="hackathon/story-title.png">
 	</a-assets>
 
-<a-light type="ambient" color="#222" light=""></a-light>
-
-<div class="a-loader-title" style="display: none;">A-Frame: Environment component</div>
-<a-entity class="environment" position="0 50 0" light="type: hemisphere; color: #91dacf; intensity: 0.6; groundColor: #937a24" visible=""></a-entity>
-<a-entity class="environment" position="-1.2 0.88 -0.55" light="intensity: 0.6; shadowCameraLeft: -10; shadowCameraBottom: -10; shadowCameraRight: 10; shadowCameraTop: 10" visible=""></a-entity>
-<a-entity rotation="-90 0 0" class="environmentGround environment" visible="" scale="1 1 4.18" shadow="cast: false; receive: false"></a-entity>
-<a-entity class="environmentDressing environment" visible=""></a-entity>
-<a-sky radius="200" theta-length="110" class="environment" material="shader: gradientshader; topColor: #24b59f; bottomColor: #eff9b7" visible="" geometry=""></a-sky>
-<a-entity id="stars" visible="false"></a-entity>
 
     <a-image 
 		src="#story-title"
