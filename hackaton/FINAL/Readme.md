@@ -65,3 +65,5 @@ Credits of 3d models:
 * Man: https://skfb.ly/QspN
 
 [Click here to enter the virtual world from Desktop](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/LAP09/index.html)   
+Scan this QR to enter the virtual world from a Smartphone.   
+![QR](LAP09/qrcode_lap09.png)
