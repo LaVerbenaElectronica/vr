@@ -1,4 +1,5 @@
 # Hackathon. Recycling the A.I.
+[Realities in Transition](https://www.realities-in-transition.eu/)
 
 A hackathon is an event where people engage in rapid and collaborative engineering over short period of time. They facilitate interdisciplinary work by grouping some people with different skills in order to solve a given challenge. The goal is to provide a working product by the end of the event, being the best solution awarded with some recognition. This particular hackathon, happening during the first XR Camp organized in the context of the EU project Realities in Transition, aims to engage young students on critical thinking about Extended Realities (XR).
 
@@ -18,4 +19,4 @@ The first Edition of this Hackathon took place at the first RiT XR Camp, at the 
 ## Results
 * FINAL. This is the folder that contains the virtual wolrds created as result of the 6 working groups in Zagreb.
 * Readme.md. This document shows the links to those projects both from computer browser and mobile devices.
-* exhibition.html. This document showd iframe of every virtual world inside the FINAL folder to showcase the hackathon.
+* [exhibition.html](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/exhibition.html). This document showd iframe of every virtual world inside the FINAL folder to showcase the hackathon.
