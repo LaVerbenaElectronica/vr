@@ -18,5 +18,5 @@ The first Edition of this Hackathon took place at the first RiT XR Camp, at the 
 
 ## Results
 * FINAL. This is the folder that contains the virtual wolrds created as result of the 6 working groups in Zagreb.
-* Readme.md. This document shows the links to those projects both from computer browser and mobile devices as well as all the credits of the 3d models used.
-* [exhibition.html](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/exhibition.html). This document show an embebbed version of every virtual world inside the FINAL folder to showcase the hackathon.
+* FINAL/Readme.md. This document shows the links to those projects both from computer browser and mobile devices as well as all the credits of the 3d models used.
+* FINAL/[exhibition.html](https://laverbenaelectronica.github.io/vr/hackaton/FINAL/exhibition.html). This document show an embebbed version of every virtual world inside the FINAL folder to showcase the hackathon.
