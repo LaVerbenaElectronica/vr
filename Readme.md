@@ -1,7 +1,5 @@
 # Instructions for the Hackathon at the XR Camp in Zagreb
 
-## URL of this instructions: https://shorturl.at/dlpsX
-
 ## Recycling the AI
 
 A hackathon is an event where people engage in rapid and collaborative engineering over short period of time. They facilitate interdisciplinary work by grouping some people with different skills in order to solve a given challenge. The goal is to provide a working product by the end of the event, being the best solution awarded with some recognition. This particular hackathon, happening during the first XR Camp organized in the context of the EU project Realities in Transition, aims to engage young students on critical thinking about Extended Realities (XR).
@@ -23,7 +21,7 @@ Follow the link, download the suitable version for your computer, unzip and foll
 Click Install and follow the instructions to complete the installation. In case 3D Builder isn't available, you can try and download Blender.
 
 3) The hackathon follows this presentation. Here you can find the workshops and indication for the working sessions. 
-- The presentation is available here [Link](https://github.com/LaVerbenaElectronica/vr/blob/main/hackaton/Recycling%20the%20AI%20-%20Hackathon.pptx.pdf)  
+- The presentation is available here [Link](https://www.realities-in-transition.eu/workshop/guideline-how-do-you-organise-an-recycling-the-ai-hackathon/)  
 Place this in a folder on your computer where you can access it easily.
 
 4) In order to follow the examples of the presentation, you will need to have under your public folder www of your webserver a zip with the repository of A-frame examples, you can download that from the user stemkonski.
@@ -49,5 +47,4 @@ c) Collection of 3D objects for the scene.
 d) General placement in the scene in A-frame.     
 
 Day 3  
-a) Third workshop. Light, texturing, animation.     
 b) Final touches and presentation.   
