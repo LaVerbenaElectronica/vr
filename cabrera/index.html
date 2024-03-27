@@ -12,7 +12,7 @@
 
 <a-scene environment="preset:  goldmine;  active:  true;  groundColor:  #b3b3b3;  groundColor2:  #385e69;  dressing:  arches;  
 horizonColor:  #5695a9;  fog:  0.75;  groundYScale:  3.48;  dressingOnPlayArea:  0.49;  dressingColor:  #914930;  skyType:  gradient;  
-skyColor:  #8c3ddb;  shadowSize:  10.19;  lightPosition:  [object Object];  ground:  noise;  dressingAmount:  19;  dressingScale:  4; 
+skyColor:  #8c300b;  shadowSize:  10.19;  lightPosition:  [object Object];  ground:  noise;  dressingAmount:  19;  dressingScale:  4; 
  dressingVariance:  [object Object]">
 	
 	<a-assets>w
@@ -24,7 +24,8 @@ skyColor:  #8c3ddb;  shadowSize:  10.19;  lightPosition:  [object Object];  grou
 	</a-assets>
 
 <a-entity camera look-controls wasd-controls="acceleration:100" position="-40 3 -40" rotation="0 180 0"
-                animation="property: position; from: -40 3 -40; to: 40 5 40; dur: 100000; delay: 5000; loop:true; dir: alternate;"></a-entity>
+                animation="property: position; from: -40 3 -40; to: 40 5 40; dur: 100000; delay: 5000; loop:true; dir: alternate;"
+				animation_2="property: rotation; from: 0 180 0; to: 0 360 0; dur: 100000; delay: 5000; loop:true; dir: alternate;"></a-entity>
 
 
 	<a-entity gltf-model="#demon" 
