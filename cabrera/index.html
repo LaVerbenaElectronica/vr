@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>A-Frame: Environment component</title>
+	<meta name="description" content="A-Frame Examples">
+	<script src="../js/aframe-master-v1.3.0.min.js"></script>
+	<script src="../js/aframe-environment-component.js"></script>
+</head>
+
+<body>
+
+<a-scene environment="preset: volcano; active: true; groundColor: #b3b3b3; groundColor2: #385e69; dressing: cubes; grid: xlines; horizonColor: #5695a9; fog: 0.98; groundYScale: 3.48; dressingOnPlayArea: 0.004; dressingColor: #000000" renderer="antialias: true;" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="" visible="" fog="color: #6b93a0; far: 12.00000000000001; density: 0">
+	
+	<a-assets>
+		<a-asset-item id="matilda" src="hackathon/woman.gltf"></a-asset-item>  
+        <a-asset-item id="demon" src="hackathon/demon.glb"></a-asset-item> 
+        <a-asset-item id="cafe" src="hackathon/coffe/Cabin.gltf"></a-asset-item> 
+		<a-asset-item id="tree" src="hackathon/Baretree.glb"></a-asset-item>
+		<a-asset-item id="tree2" src="hackathon/bundeva_i_drvo.glb"></a-asset-item>
+		<img id="story-title" src="hackathon/story-title.png">
+	</a-assets>
+
+    <a-image 
+		src="#story-title"
+		width="7" 
+		height="2"
+		scale="0.43 0.43 0.43"
+		position="-2.937 2.307 -5">
+	</a-image>
+
+	<a-entity gltf-model="#matilda" 
+		position = "0 0 -5"
+		rotation="0 0 0"
+		scale="0.01 0.01 0.01">
+	</a-entity>
+
+
+	<a-entity gltf-model="#demon" 
+		position = "3 2 -7"
+		rotation="0 -34 0"
+		scale="0.3 0.3 0.3"
+		animation="property: position; from: 3 2 -7; to: 1 5 -3; dur: 10000; delay: 5000; loop:true; dir: alternate;">	
+    </a-entity>
+
+
+    <a-entity gltf-model="#matilda" 
+		position = "4 0 -4"
+		rotation="0 -52 0"
+		scale="0.01 0.01 0.01">
+	</a-entity>
+
+	<a-entity gltf-model="#cafe" 
+		position="3.06438 0.03157 -6.04248" 
+		rotation="0 -32.29934978490989 0" 
+		scale="10 10 10"
+		animation="property: scale; from: 10 10 10; to: 10.1 10.1 10.1; dur: 1000; loop:true; dir: alternate;">
+	</a-entity>
+	
+	<a-entity gltf-model="#tree" 
+		position = "-5 0 -2"
+		rotation="0 42 0"
+		scale="20 20 20"
+		animation="property: scale; from: 20 20 20; to: 20.05 20.05 20.05; dur: 1000; loop:true; dir: alternate;">
+	</a-entity>
+	
+	<a-entity gltf-model="#tree2" 
+		position = "2.5 0 0"
+		rotation="0 -67 0"
+		scale="50 50 50"
+		animation="property: scale; from: 50 50 50; to: 50.05 50.05 50.05; dur: 1000; loop:true; dir: alternate;">
+	</a-entity>
+	
+	<a-entity gltf-model="#tree" 
+		position = "3.2 0 -4.4"
+		rotation="0 0 0"
+		scale="15 15 15"
+		animation="property: scale; from: 15 15 15; to: 15.05 15.05 15.05; dur: 1000; loop:true; dir: alternate;">
+	</a-entity>
+	
+	<a-entity gltf-model="#tree2" 
+		position = "2 0 -2"
+		rotation="0 0 0"
+		scale="30 30 30"
+		animation="property: scale; from: 30 30 30; to: 30.05 30.05 30.05; dur: 1000; loop:true; dir: alternate;">
+	</a-entity>
+
+</a-scene>
+
+
+
+
+</body>
+</html>
