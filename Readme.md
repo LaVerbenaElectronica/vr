@@ -1,6 +1,6 @@
-# Instructions for the Hackathon at the XR Camp in Zagreb
+# VR projects with A-FRAME
 
-## Recycling the AI
+## HACKATON. Recycling the AI
 
 A hackathon is an event where people engage in rapid and collaborative engineering over short period of time. They facilitate interdisciplinary work by grouping some people with different skills in order to solve a given challenge. The goal is to provide a working product by the end of the event, being the best solution awarded with some recognition. This particular hackathon, happening during the first XR Camp organized in the context of the EU project Realities in Transition, aims to engage young students on critical thinking about Extended Realities (XR).
 
@@ -10,41 +10,7 @@ Considering also the amount of resources needed to generate AI digital content, 
 
 By learning the basics of HTML and with the use of 3D editing tools, attendants will be able to design virtual environments and host them for their own use while, at the same time, help them reflect about issues like energy consumption, privacy, open culture, digital representation and accessibility. During these three consecutive days, thirty students of the School of Applied Arts and Design of Zagreb will put their skills to work to create a working prototype of several virtual scenes with A-Frame, an open source library for building 3D spaces easily on the browser.
 
-## Software and Installation process
+## La Cabrera
 
-1) In order to run the example in A-frame it is needed to have installed some web server. Here there is a link to Wamp, which is an open source web server for Windows under Apache.
-- Wamp download website [Link](https://www.wampserver.com/en/)  
-Follow the link, download the suitable version for your computer, unzip and follow the instructions to complete the installation.
 
-2) In order to edit 3D models easily we recommend under windows, the use of 3D Buider, which is a free tool. Here is the link.
-- 3D Builder app [Link](https://apps.microsoft.com/detail/3d-builder/9WZDNCRFJ3T6)  
-Click Install and follow the instructions to complete the installation. In case 3D Builder isn't available, you can try and download Blender.
 
-3) The hackathon follows this presentation. Here you can find the workshops and indication for the working sessions. 
-- The presentation is available here [Link](https://www.realities-in-transition.eu/workshop/guideline-how-do-you-organise-an-recycling-the-ai-hackathon/)  
-Place this in a folder on your computer where you can access it easily.
-
-4) In order to follow the examples of the presentation, you will need to have under your public folder www of your webserver a zip with the repository of A-frame examples, you can download that from the user stemkonski.
-- A-frame examples [Link](https://github.com/stemkoski/A-Frame-Examples)  
-Go to "Code", clic and choose "Download zip", place it inside your web server public folder "www".
-
-## Setup for the day.
-- Start the wamp server. Get the green icon on the windows bar.    
-- Go to C:/wamp64/www/ and search for your A-frame folder. Note the folders name. There, search for *hackathon.html* and open it in text file.     
-- Open an browser and go to [localhost](http://localhost/) write / and the name of your aframe forlder. Click until you seee the A frame examples.
-
-## Plan and schedule
-Day 1  
-a) Presenting Rit and the Hackathon theme.   
-b) Installing the required software on the computers.   
-c) Reading the AI generated stories and design the scene.
-d) First worskhop. HTML tags and Inspector.   
-
-Day 2  
-a) Configure the Environment Component.     
-b) Second workshop. 3D Builder use.  
-c) Collection of 3D objects for the scene.  
-d) General placement in the scene in A-frame.     
-
-Day 3  
-b) Final touches and presentation.   
