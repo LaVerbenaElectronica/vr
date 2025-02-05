@@ -10,7 +10,9 @@ Considering also the amount of resources needed to generate AI digital content, 
 
 By learning the basics of HTML and with the use of 3D editing tools, attendants will be able to design virtual environments and host them for their own use while, at the same time, help them reflect about issues like energy consumption, privacy, open culture, digital representation and accessibility. During these three consecutive days, thirty students of the School of Applied Arts and Design of Zagreb will put their skills to work to create a working prototype of several virtual scenes with A-Frame, an open source library for building 3D spaces easily on the browser.
 
-## La Cabrera
+## Medialab Madrid
+
+This is a project of designing an exhibition of the Fine Arts Exhibtion Space at Complutense University of Madrid for the Exhibition: "Medialab Madrid 2002-2006".
 
 
 
