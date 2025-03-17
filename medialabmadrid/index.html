@@ -1,23 +1,205 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+    <!-- Generated automatically by AFRAME Exporter for Blender - https://silverslade.itch.io/a-frame-blender-exporter -->
+    <!-- MIT License: https://github.com/silverslade/aframe_blender_exporter/blob/master/LICENSE -->
+    <head>
+        <title>WebXR Application</title>
+        <link rel="icon" type="image/png" href="favicon.ico"/>
+        <meta name="description" content="3D Application">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
+        <script type="text/javascript" src="js/webxr.js"></script>
+        <script type="text/javascript" src="js/joystick.js"></script>
+        <script type="text/javascript" src="js/camera-cube-env.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload="init();">
+        <a-scene   shadow="type: basic; autoUpdate: false;" renderer="antialias: true; colorManagement: true; physicallyCorrectLights: true;">
+            <!-- Assets -->
+            <a-assets>
+				<a-asset-item id="BezierCurve.001" src="./assets/BezierCurve.001.gltf"></a-asset-item>
+				<a-asset-item id="BezierCurve.002" src="./assets/BezierCurve.002.gltf"></a-asset-item>
+				<a-asset-item id="BezierCurve.003" src="./assets/BezierCurve.003.gltf"></a-asset-item>
+				<a-asset-item id="BezierCurve.004" src="./assets/BezierCurve.004.gltf"></a-asset-item>
+				<a-asset-item id="BezierCurve.005" src="./assets/BezierCurve.005.gltf"></a-asset-item>
+				<a-asset-item id="BezierCurve.006" src="./assets/BezierCurve.006.gltf"></a-asset-item>
+				<a-asset-item id="BezierCurve.007" src="./assets/BezierCurve.007.gltf"></a-asset-item>
+				<a-asset-item id="BezierCurve.008" src="./assets/BezierCurve.008.gltf"></a-asset-item>
+				<a-asset-item id="BezierCurve.009" src="./assets/BezierCurve.009.gltf"></a-asset-item>
+				<a-asset-item id="BezierCurve.010" src="./assets/BezierCurve.010.gltf"></a-asset-item>
+				<a-asset-item id="Cube" src="./assets/Cube.gltf"></a-asset-item>
+				<a-asset-item id="Cube.001" src="./assets/Cube.001.gltf"></a-asset-item>
+				<a-asset-item id="Cube.002" src="./assets/Cube.002.gltf"></a-asset-item>
+				<a-asset-item id="Cube.003" src="./assets/Cube.003.gltf"></a-asset-item>
+				<a-asset-item id="Cube.004" src="./assets/Cube.004.gltf"></a-asset-item>
+				<a-asset-item id="Cube.005" src="./assets/Cube.005.gltf"></a-asset-item>
+				<a-asset-item id="Cube.006" src="./assets/Cube.006.gltf"></a-asset-item>
+				<a-asset-item id="Cube.007" src="./assets/Cube.007.gltf"></a-asset-item>
+				<a-asset-item id="Cube.008" src="./assets/Cube.008.gltf"></a-asset-item>
+				<a-asset-item id="Cube.009" src="./assets/Cube.009.gltf"></a-asset-item>
+				<a-asset-item id="Cube.010" src="./assets/Cube.010.gltf"></a-asset-item>
+				<a-asset-item id="Cube.011" src="./assets/Cube.011.gltf"></a-asset-item>
+				<a-asset-item id="Cube.012" src="./assets/Cube.012.gltf"></a-asset-item>
+				<a-asset-item id="Cube.013" src="./assets/Cube.013.gltf"></a-asset-item>
+				<a-asset-item id="Cube.016" src="./assets/Cube.016.gltf"></a-asset-item>
+				<a-asset-item id="Cube.017" src="./assets/Cube.017.gltf"></a-asset-item>
+				<a-asset-item id="Cube.018" src="./assets/Cube.018.gltf"></a-asset-item>
+				<a-asset-item id="Cube.019" src="./assets/Cube.019.gltf"></a-asset-item>
+				<a-asset-item id="Cube.020" src="./assets/Cube.020.gltf"></a-asset-item>
+				<a-asset-item id="Cube.021" src="./assets/Cube.021.gltf"></a-asset-item>
+				<a-asset-item id="Cube.022" src="./assets/Cube.022.gltf"></a-asset-item>
+				<a-asset-item id="Cube.023" src="./assets/Cube.023.gltf"></a-asset-item>
+				<a-asset-item id="Cube.024" src="./assets/Cube.024.gltf"></a-asset-item>
+				<a-asset-item id="Cube.025" src="./assets/Cube.025.gltf"></a-asset-item>
+				<a-asset-item id="Cube.026" src="./assets/Cube.026.gltf"></a-asset-item>
+				<a-asset-item id="Cube.027" src="./assets/Cube.027.gltf"></a-asset-item>
+				<a-asset-item id="Cube.028" src="./assets/Cube.028.gltf"></a-asset-item>
+				<a-asset-item id="Cube.029" src="./assets/Cube.029.gltf"></a-asset-item>
+				<a-asset-item id="Cube.030" src="./assets/Cube.030.gltf"></a-asset-item>
+				<a-asset-item id="Cube.031" src="./assets/Cube.031.gltf"></a-asset-item>
+				<a-asset-item id="Cube.032" src="./assets/Cube.032.gltf"></a-asset-item>
+				<a-asset-item id="Cube.033" src="./assets/Cube.033.gltf"></a-asset-item>
+				<a-asset-item id="Plane" src="./assets/Plane.gltf"></a-asset-item>
+				<a-asset-item id="Plane.001" src="./assets/Plane.001.gltf"></a-asset-item>
+				<a-asset-item id="Plane.002" src="./assets/Plane.002.gltf"></a-asset-item>
+				<a-asset-item id="Plane.003" src="./assets/Plane.003.gltf"></a-asset-item>
+				<a-asset-item id="Plane.004" src="./assets/Plane.004.gltf"></a-asset-item>
+				<a-asset-item id="Plane.005" src="./assets/Plane.005.gltf"></a-asset-item>
+				<a-asset-item id="Plane.006" src="./assets/Plane.006.gltf"></a-asset-item>
+				<a-asset-item id="Plane.007" src="./assets/Plane.007.gltf"></a-asset-item>
+				<a-asset-item id="Plane.008" src="./assets/Plane.008.gltf"></a-asset-item>
+				<a-asset-item id="Plane.009" src="./assets/Plane.009.gltf"></a-asset-item>
+				<a-asset-item id="Plane.010" src="./assets/Plane.010.gltf"></a-asset-item>
+				<a-asset-item id="Plane.011" src="./assets/Plane.011.gltf"></a-asset-item>
+				<a-asset-item id="Plane.012" src="./assets/Plane.012.gltf"></a-asset-item>
+				<a-asset-item id="Plane.013" src="./assets/Plane.013.gltf"></a-asset-item>
+				<a-asset-item id="Plane.014" src="./assets/Plane.014.gltf"></a-asset-item>
+				<a-asset-item id="Plane.015" src="./assets/Plane.015.gltf"></a-asset-item>
+				<a-asset-item id="Plane.016" src="./assets/Plane.016.gltf"></a-asset-item>
+				<a-asset-item id="Plane.017" src="./assets/Plane.017.gltf"></a-asset-item>
+				<a-asset-item id="Plane.018" src="./assets/Plane.018.gltf"></a-asset-item>
+                <img id="sky"                 src="./resources/sky.jpg">
+                <img id="icon-play"           src="./resources/play.png">
+                <img id="icon-pause"          src="./resources/pause.png">
+                <img id="icon-play-skip-back" src="./resources/play-skip-back.png">
+                <img id="icon-mute"           src="./resources/mute.png">
+                <img id="icon-volume-low"     src="./resources/volume-low.png">
+                <img id="icon-volume-high"    src="./resources/volume-high.png">
+            </a-assets>
 
-<head>
-	<title>A-Frame: Environment component</title>
-	<meta name="description" content="A-Frame Examples">
-	<script src="../hackaton/FINAL/js/aframe-master-v1.3.0.min.js"></script>
-	<script src="../hackaton/FINAL/js/aframe-environment-component.js"></script>
-</head>
+            <!-- Entities -->
+            
+			<a-entity id="#BezierCurve.001" gltf-model="#BezierCurve.001"  scale="1 1 1" position="-6.7520294189453125 7.817409515380859 0.18904051184654236" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#BezierCurve.002" gltf-model="#BezierCurve.002"  scale="1 1 1" position="1.566361904144287 7.817409515380859 4.093442916870117" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#BezierCurve.003" gltf-model="#BezierCurve.003"  scale="1 1 1" position="5.138735294342041 7.817409515380859 0.18904051184654236" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#BezierCurve.004" gltf-model="#BezierCurve.004"  scale="1 1 1" position="-0.7969183325767517 7.817409515380859 -3.5269100666046143" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#BezierCurve.005" gltf-model="#BezierCurve.005"  scale="1 1 1" position="5.031993865966797 7.817409515380859 -10.476075172424316" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#BezierCurve.006" gltf-model="#BezierCurve.006"  scale="1 1 1" position="2.4171090126037598 7.817409515380859 3.0731143951416016" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#BezierCurve.007" gltf-model="#BezierCurve.007"  scale="1 1 1" position="-6.771227836608887 7.817409515380859 -0.38500869274139404" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#BezierCurve.008" gltf-model="#BezierCurve.008"  scale="1 1 1" position="-15.804830551147461 7.817409515380859 -0.020573295652866364" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#BezierCurve.009" gltf-model="#BezierCurve.009"  scale="1 1 1" position="-9.667787551879883 7.817409515380859 -0.38794776797294617" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#BezierCurve.010" gltf-model="#BezierCurve.010"  scale="1 1 1" position="-3.6587982177734375 7.817409515380859 -3.532482862472534" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube" gltf-model="#Cube"  scale="1 1 1" position="8.081151962280273 4.027459144592285 13.876423835754395" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.001" gltf-model="#Cube.001"  scale="1 1 1" position="2.073267698287964 3.9899559020996094 13.876423835754395" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.002" gltf-model="#Cube.002"  scale="1 1 1" position="-3.864698648452759 4.027459144592285 13.876423835754395" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.003" gltf-model="#Cube.003"  scale="1 1 1" position="-9.896422386169434 3.9899559020996094 13.876423835754395" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.004" gltf-model="#Cube.004"  scale="1 1 1" position="-15.771883010864258 3.9899559020996094 13.876423835754395" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.005" gltf-model="#Cube.005"  scale="1 1 1" position="-21.67859649658203 4.027459144592285 13.876423835754395" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.006" gltf-model="#Cube.006"  scale="1 1 1" position="22.067617416381836 3.6310555934906006 -0.1143808364868164" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.007" gltf-model="#Cube.007"  scale="1 1 1" position="8.081151962280273 3.9899559020996094 -13.93575668334961" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.008" gltf-model="#Cube.008"  scale="1 1 1" position="2.03267765045166 4.027459144592285 -13.93575668334961" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.009" gltf-model="#Cube.009"  scale="1 1 1" position="-3.9077882766723633 4.064961910247803 -13.93575668334961" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.010" gltf-model="#Cube.010"  scale="1 1 1" position="-9.902257919311523 3.9899559020996094 -13.93575668334961" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.011" gltf-model="#Cube.011"  scale="1 1 1" position="-15.788719177246094 3.9899559020996094 -13.93575668334961" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.012" gltf-model="#Cube.012"  scale="1 1 1" position="-21.78318977355957 4.027459144592285 -13.93575668334961" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.013" gltf-model="#Cube.013"  scale="1 1 1" position="8.081151962280273 3.981245279312134 -6.807197093963623" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.016" gltf-model="#Cube.016"  scale="1 1 1" position="8.081151962280273 4.0230889320373535 6.639856338500977" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.017" gltf-model="#Cube.017"  scale="1 1 1" position="19.879220962524414 2.075666904449463 -0.1143808364868164" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.018" gltf-model="#Cube.018"  scale="1 1 1" position="20.964374542236328 2.8533613681793213 -0.1143808364868164" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.019" gltf-model="#Cube.019"  scale="1 1 1" position="18.7940673828125 1.261800765991211 -0.1143808364868164" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.020" gltf-model="#Cube.020"  scale="1 1 1" position="17.690826416015625 0.4479345977306366 -0.1143808364868164" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.021" gltf-model="#Cube.021"  scale="1 1 1" position="23.17085838317871 4.408750057220459 -0.1143808364868164" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.022" gltf-model="#Cube.022"  scale="1 1 1" position="20.26227569580078 2.503216028213501 7.8917107582092285" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.023" gltf-model="#Cube.023"  scale="1 1 1" position="20.26227569580078 2.503216028213501 -8.191102981567383" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.024" gltf-model="#Cube.024"  scale="1 1 1" position="4.965065002441406 1.2248693704605103 13.035392761230469" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.025" gltf-model="#Cube.025"  scale="1 1 1" position="7.849261283874512 1.1955890655517578 10.03557014465332" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.026" gltf-model="#Cube.026"  scale="1 1 1" position="4.395405292510986 1.2255797386169434 3.769096851348877" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.027" gltf-model="#Cube.027"  scale="1 1 1" position="-0.4460439682006836 1.2255797386169434 -12.946725845336914" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.028" gltf-model="#Cube.028"  scale="1 1 1" position="-1.6864392757415771 1.1955890655517578 -6.003145217895508" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.029" gltf-model="#Cube.029"  scale="1 1 1" position="-1.0790859460830688 1.2248693704605103 -3.6488473415374756" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.030" gltf-model="#Cube.030"  scale="1 1 1" position="-6.582876205444336 1.2248693704605103 0.4707193374633789" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.031" gltf-model="#Cube.031"  scale="1 1 1" position="-5.537847518920898 1.2248693704605103 -10.535555839538574" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.032" gltf-model="#Cube.032"  scale="1 1 1" position="-16.09355354309082 1.1955890655517578 10.03557014465332" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Cube.033" gltf-model="#Cube.033"  scale="1 1 1" position="-15.696622848510742 1.2248693704605103 -11.813912391662598" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane" gltf-model="#Plane"  scale="1 1 1" position="0.0 0.0 -0.0" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.001" gltf-model="#Plane.001"  scale="1 1 1" position="-22.474077224731445 5.024417877197266 -11.332452774047852" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.002" gltf-model="#Plane.002"  scale="1 1 1" position="0.06032538414001465 5.024417877197266 20.37458038330078" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.003" gltf-model="#Plane.003"  scale="1 1 1" position="-22.172210693359375 5.024417877197266 11.261960983276367" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.004" gltf-model="#Plane.004"  scale="1 1 1" position="0.06032538414001465 5.024417877197266 -20.42068862915039" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.005" gltf-model="#Plane.005"  scale="1 1 1" position="28.109882354736328 5.027358055114746 -0.0" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.006" gltf-model="#Plane.006"  scale="1 1 1" position="23.544544219970703 2.4893908500671387 12.356350898742676" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.007" gltf-model="#Plane.007"  scale="1 1 1" position="23.544544219970703 2.4893908500671387 -12.408003807067871" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.008" gltf-model="#Plane.008"  scale="1 1 1" position="8.022347450256348 3.7377824783325195 -0.009248912334442139" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.009" gltf-model="#Plane.009"  scale="1 1 1" position="1.6593117713928223 5.760122299194336 10.226482391357422" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.010" gltf-model="#Plane.010"  scale="1 1 1" position="2.0147414207458496 5.760122299194336 3.9317049980163574" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.011" gltf-model="#Plane.011"  scale="1 1 1" position="4.688977241516113 5.760122299194336 -9.849355697631836" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.012" gltf-model="#Plane.012"  scale="1 1 1" position="2.264183282852173 5.760122299194336 -5.0556488037109375" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.013" gltf-model="#Plane.013"  scale="1 1 1" position="-6.696137428283691 5.760122299194336 0.6464943885803223" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.014" gltf-model="#Plane.014"  scale="1 1 1" position="-5.9566850662231445 5.760122299194336 -9.732283592224121" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.015" gltf-model="#Plane.015"  scale="1 1 1" position="-16.135887145996094 5.760122299194336 10.226482391357422" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.016" gltf-model="#Plane.016"  scale="1 1 1" position="-22.042177200317383 5.760122299194336 -5.5381178855896" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.017" gltf-model="#Plane.017"  scale="1 1 1" position="-18.6671142578125 5.760122299194336 -14.185832023620605" visible="true" shadow="cast: false" ></a-entity>
+			<a-entity id="#Plane.018" gltf-model="#Plane.018"  scale="1 1 1" position="0.0 9.844283103942871 -0.0" visible="true" shadow="cast: false" ></a-entity>
 
-<body>
+            <!-- Camera -->
+            <a-entity id="player" 
+                position="0 -0.2 0" 
+                movement-controls="speed: 0.10000000149011612;">
+                <a-entity id="camera" 
+                    camera="near: 0.001" 
+                    position="0 1.7000000476837158 0" 
+                    look-controls="pointerLockEnabled: true">
+                        <a-entity id="cursor" cursor="fuse: false;" animation__click="property: scale; startEvents: click; easing: easeInCubic; dur: 50; from: 	0.1 0.1 0.1; to: 1 1 1"
+                            position="0 0 -0.1"
+                            geometry="primitive: circle; radius: 0.001;"
+                            material="color: #CCC; shader: flat;"
+                            >
+                        </a-entity>
+                </a-entity>
+                    
+            </a-entity>
 
-<a-scene environment="preset: none; active: true; groundColor: #b3b3b3; groundColor2: #385e69; dressing: none; grid: xlines; horizonColor: #5695a9; fog: 0; groundYScale: 3.48; dressingOnPlayArea: 0.004; dressingColor: #000000" renderer="antialias: true;" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="" visible="" fog="color: #6b93a0; far: 12.00000000000001; density: 0">
+            <!-- Lights -->
+            
+			<a-entity position="28.135398864746094 18.27062225341797 0.11697196960449219" light="castShadow:false; color:#ffffff; distance:40.0; type:point; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="7.545705795288086 11.778157234191895 9.493002891540527" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="3.1417839527130127 8.892468452453613 3.766641139984131" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="2.66172456741333 9.514230728149414 -7.738706588745117" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-2.360970973968506 9.016287803649902 -5.093140125274658" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-3.6608474254608154 8.756258010864258 -0.11357641220092773" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-20.09044647216797 8.02385425567627 -9.786386489868164" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-13.20667552947998 9.016142845153809 12.885845184326172" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="15.311575889587402 9.331171989440918 9.493002891540527" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="20.993242263793945 7.186792373657227 -1.3490078449249268" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-7.567887306213379 6.233367919921875 -10.448765754699707" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-2.245184898376465 9.331171989440918 9.493002891540527" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-4.534977436065674 11.222610473632812 -6.705516815185547" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-14.706034660339355 4.003441333770752 -5.346627235412598" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="2.7249364852905273 9.156551361083984 16.462242126464844" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-4.9745774269104 7.927433013916016 16.580537796020508" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-0.6963624954223633 11.778157234191895 -17.57141876220703" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-14.936441421508789 11.778157234191895 -17.57141876220703" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-14.936441421508789 11.778157234191895 -17.57141876220703" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
+			<a-entity position="-14.053546905517578 7.927433013916016 18.018619537353516" light="castShadow:false; color:#ffffff; distance:40.0; type:spot; intensity:1.0; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2;"></a-entity>
 
-<a-plane color="#CCCCCC" height="34" width="20" material="" geometry="" rotation="-90 0 0" position="0 0.067 0"></a-plane>
-<a-plane color="#CCCCCC" height="20" width="34" material="" geometry="" rotation="0 0 0" position="0 0 -20"></a-plane>
-</a-scene>
-
-
-
-
-</body>
+            <!-- Sky -->
+            <a-sky color="#ECECEC"></a-sky>
+        </a-scene>
+    </body>
 </html>
+<!-- Generated automatically by AFRAME Exporter for Blender - https://silverslade.itch.io/a-frame-blender-exporter -->
+<!-- MIT License: https://github.com/silverslade/aframe_blender_exporter/blob/master/LICENSE -->
