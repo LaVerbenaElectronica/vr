@@ -11,14 +11,16 @@
 				"b_vr_controllers":0,
 				"s_cubemap_path":"/env/",
 				"b_renderer":1,
-				"b_player":0,
+				"b_player":1,
 				"b_interactive":1,
 				"b_export":1,
 				"export_path":"C:\\Users\\Usuario\\Desktop\\Escuela\\imagenes-expo\\",
 				"s_output":"exporting...",
 				"b_colorManagement":1,
 				"b_physicallyCorrectLights":1,
-				"b_aa":1
+				"b_aa":1,
+				"s_project_name":"aframe-prj2",
+				"b_export_single_model":0
 			},
 			"name":"Scene",
 			"nodes":[
