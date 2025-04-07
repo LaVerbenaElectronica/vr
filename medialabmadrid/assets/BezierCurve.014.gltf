@@ -31,17 +31,17 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"BezierCurve.012",
+			"name":"BezierCurve.014",
 			"rotation":[
 				0,
-				0.7071068286895752,
+				0.4727964997291565,
 				0,
-				0.7071068286895752
+				0.8811716437339783
 			],
 			"scale":[
-				0.47654736042022705,
+				1.1730396747589111,
 				1,
-				0.9999978542327881
+				1
 			]
 		}
 	],
@@ -53,7 +53,7 @@
 				0.2865283191204071,
 				0.033347733318805695
 			],
-			"name":"cables.011",
+			"name":"cables.013",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
 					0,
@@ -66,7 +66,7 @@
 	],
 	"meshes":[
 		{
-			"name":"BezierCurve.012",
+			"name":"BezierCurve.014",
 			"primitives":[
 				{
 					"attributes":{

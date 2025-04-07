@@ -31,7 +31,7 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Plane.012",
+			"name":"Plane.020",
 			"rotation":[
 				0.21540240943431854,
 				-0.21540237963199615,
@@ -48,7 +48,7 @@
 	"materials":[
 		{
 			"doubleSided":true,
-			"name":"Material.022",
+			"name":"Material.016",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -60,7 +60,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Plane.005",
+			"name":"Plane.020",
 			"primitives":[
 				{
 					"attributes":{
@@ -85,7 +85,7 @@
 		{
 			"bufferView":5,
 			"mimeType":"image/jpeg",
-			"name":"banquete"
+			"name":"banquete.jpg"
 		}
 	],
 	"accessors":[
